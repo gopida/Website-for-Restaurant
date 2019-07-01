@@ -1,0 +1,70 @@
+.master-container {
+    background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url('images/food.jpg');
+}
+
+div.reservationform {
+    background: #f2f2f2;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+textarea,
+input,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.carousel {
+    margin-top: -22px;
+    z-index: -1
+}
+
+.table {
+    border: 1px solid black;
+}
+
+.itemname {
+    color: #4CAF50;
+}
+
+div.cartitemname {
+    color: #4CAF50;
+    font-size: 5px;
+}
+
+button.lightbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
