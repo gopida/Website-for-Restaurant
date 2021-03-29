@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli('localhost', 'root', 'passcode', 'restaurant') or die(mysqli_error($mysqli));
+$mysqli = new mysqli('localhost', 'root', '', 'restaurant') or die(mysqli_error($mysqli));
 
 if(isset($_POST['signup'])){
 
